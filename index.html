@@ -30,8 +30,8 @@
                           
                     </div>
                     <div class="navbar-end ">
-                         <div class="mx-2 rounded-full border-2 p-2  hover:bg-lime-100 hover:border-lime-200 hidden lg:block"><button><i class="fa-solid fa-magnifying-glass"></i></button></div>
-                         <div class="mx-2 rounded-full border-2 p-2  hover:bg-lime-100 hover:border-lime-200 hidden lg:block"> <button><i class="fa-solid fa-cart-shopping"></i></button></div>
+                         <div class="mx-2 rounded-full border-2 p-2  hover:bg-lime-100 hover:border-lime-200 hidden lg:block "><button><i class="fa-solid fa-magnifying-glass"></i></button></div>
+                         <div class="mx-2 rounded-full border-2 p-2  hover:bg-lime-100 hover:border-lime-200 hidden lg:block"> <button><i class="fa-solid fa-cart-shopping "></i></button></div>
                          <div class="dropdown dropdown-end border shadow-lg rounded-full">
                               <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                                 <svg
@@ -172,7 +172,7 @@
                            <h2 class="card-title">New movie is released!</h2>
                            <p>Click the button to watch on Jetflix app.</p>
                            <div class="card-actions">
-                              <button class=" btn btn-primary text-black font-bold bg-transparent rounded-3xl mt-5 px-16 py-2 lg:px-5 border-none  hover:bg-lime-100 hover:border-lime-200 mx-auto lg:mx-0">View Details <i class="fa-solid fa-arrow-right -rotate-45 ml-1 bg-lime-500 rounded-full hover:bg-lime-500 px-2 py-2"></i></button>
+                              <button class=" btn btn-primary text-black font-bold bg-transparent rounded-3xl mt-2 px-16  lg:px-5 border-none  hover:bg-lime-100 hover:border-lime-200 mx-auto lg:mx-0">View Details <i class="fa-solid fa-arrow-right -rotate-45 ml-1 bg-lime-500 rounded-full hover:bg-lime-500 px-2 py-2"></i></button>
                            </div>
                          </div>
                        </div>
@@ -189,7 +189,7 @@
                                 <h2 class="card-title">New movie is released!</h2>
                                 <p>Click the button to watch on Jetflix app.</p>
                                 <div class="card-actions">
-                                   <button class=" btn btn-primary text-black font-bold bg-transparent rounded-3xl mt-5 px-16 py-2 lg:px-5 border-none  hover:bg-lime-100 hover:border-lime-200  mx-auto lg:mx-0">View Details <i class="fa-solid fa-arrow-right -rotate-45 ml-1 bg-lime-500 rounded-full hover:bg-lime-500 px-2 py-2"></i></button>
+                                   <button class=" btn btn-primary text-black font-bold bg-transparent rounded-3xl mt-2 px-16 lg:px-5 border-none  hover:bg-lime-100 hover:border-lime-200  mx-auto lg:mx-0">View Details <i class="fa-solid fa-arrow-right -rotate-45 ml-1 bg-lime-500 rounded-full hover:bg-lime-500 px-2 py-2"></i></button>
                                 </div>
                               </div>
                             </div>
@@ -199,6 +199,55 @@
               
               
           </section>
+            <!-- live project section starts here -->
+         <section class="flex flex-col lg:flex-row items-center mx-auto px-2">
+         <div>
+          
+          <div  class="text-center lg:text-left ">
+               <h2 class="text-2xl font-bold lg:text-3xl my-3">Some finished projects</h2>
+               <p class="text-gray-600 font-semibold mx-auto mb-5">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+          </div>
+         </div>
+          <div class="carousel w-full m-20 mx-auto">
+               <div id="slide1" class="carousel-item relative w-full">
+                 <img
+                   src="assets/house 1.jpg"
+                   class="w-full" />
+                 <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                   <a href="#slide4" class="btn btn-circle">❮</a>
+                   <a href="#slide2" class="btn btn-circle">❯</a>
+                 </div>
+               </div>
+               <div id="slide2" class="carousel-item relative w-full">
+                 <img
+                   src="assets/house 2.jpg"
+                   class="w-full" />
+                 <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                   <a href="#slide1" class="btn btn-circle">❮</a>
+                   <a href="#slide3" class="btn btn-circle">❯</a>
+                 </div>
+               </div>
+               <div id="slide3" class="carousel-item relative w-full">
+                 <img
+                   src="assets/house 3.jpg"
+                   class="w-full" />
+                 <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                   <a href="#slide2" class="btn btn-circle">❮</a>
+                   <a href="#slide4" class="btn btn-circle">❯</a>
+                 </div>
+               </div>
+               <div id="slide4" class="carousel-item relative w-full">
+                 <img
+                   src="assets/house 4.jpg"
+                   class="w-full" />
+                 <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                   <a href="#slide3" class="btn btn-circle">❮</a>
+                   <a href="#slide1" class="btn btn-circle">❯</a>
+                 </div>
+               </div>
+             </div>
+         </section>
+          <!-- contact us section starts here -->
           <section class="bg-[url('assets/bg.jpg')] bg-no-repeat bg-cover bg-center mx-auto text-center py-28">
                <div>
                     <div class="mx-auto text-center"><button class=" mx-auto btn btn-secondary font-bold bg-lime-200 text-black rounded-3xl mt-5 px-24 py-2 lg:px-5 hover:bg-lime-400 border-none"><i class="fa-solid fa-arrow-right mr-1"></i>Let's Connect</button></div>
@@ -218,7 +267,9 @@
                <div class="mx-auto text-center lg:w-1/2"><button class= "btn btn-primary w-full text-black bg-center  my-8  lg:mt-6 font-bold bg-lime-400 rounded-3xl mt-5 px-24 py-2 border-2 border-lime-100 hover:bg-white border-none">Send Mail <i class="fa-solid fa-arrow-right -rotate-45 ml-1 bg-black text-white rounded-full px-2 py-2"></i></button></div>
 
           </section>
+        
      </main>
+     <!-- footer section starts here -->
      <footer class="bg-black">
           <div class="text-center">
                <h4 class="text-xl font-bold text-white pt-28 pb-5"><i class="fa-solid fa-arrow-right -rotate-45 ml-1 bg-lime-400 text-black rounded-full px-2 py-2 mr-1"></i> Rinterio</h4>
